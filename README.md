@@ -65,3 +65,12 @@ Provides more uniform wait time.
 
 ---
 
+
+## 📂 Project Structure
+
+Disk-Scheduler/
+│
+├── UI.py # Streamlit UI
+├── scheduler.py # Algorithm implementations
+└── README.md
+
