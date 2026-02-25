@@ -7,7 +7,7 @@ I built this to better understand how operating systems handle disk requests and
 
 ---
 
-## 🚀 Features
+## Features
 
 - Implementation of 4 disk scheduling algorithms:
   - FCFS (First Come First Serve)
@@ -22,7 +22,7 @@ I built this to better understand how operating systems handle disk requests and
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Streamlit (Web UI)
@@ -30,7 +30,7 @@ I built this to better understand how operating systems handle disk requests and
 
 ---
 
-## 🧠 Why I Built This
+## Why I Built This
 
 While studying Operating Systems, I realized disk scheduling algorithms are often explained theoretically but rarely visualized properly.
 
@@ -45,25 +45,23 @@ This project helped me understand the trade-offs between fairness and efficiency
 
 ---
 
-## 📚 Algorithms Implemented
+## Algorithms Implemented
 
-### 1️⃣ FCFS (First Come First Serve)
+### FCFS (First Come First Serve)
 Processes requests in the order they arrive.  
 Simple but can cause high seek time.
 
-### 2️⃣ SSTF (Shortest Seek Time First)
+### SSTF (Shortest Seek Time First)
 Selects the request closest to the current head position.  
 Reduces seek time but may cause starvation.
 
-### 3️⃣ SCAN (Elevator Algorithm)
+### SCAN (Elevator Algorithm)
 Moves in one direction servicing requests, then reverses.  
 More balanced compared to SSTF.
 
-### 4️⃣ C-SCAN (Circular SCAN)
+### C-SCAN (Circular SCAN)
 Moves in one direction only and jumps back to start.  
 Provides more uniform wait time.
 
 ---
-
-## 📂 Project Structure
 
